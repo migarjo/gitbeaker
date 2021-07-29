@@ -237,7 +237,7 @@ export class Projects<C extends boolean = false> extends BaseResource<C> {
 
   show(projectId: string | number, options?: BaseRequestOptions) {
     const pId = encodeURIComponent(projectId);
-
+    console.log(pId)
     return RequestHelper.get<ProjectExtendedSchema>()(this, `projects/${pId}`, options);
   }
 
