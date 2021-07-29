@@ -9,7 +9,7 @@
     "url": "https://github.com/jdalrymple/gitbeaker/issues"
   },
   "dependencies": {
-    "@gitbeaker/core": "^32.0.0",
+    "@gitbeaker/core": "git://github.com/migarjo/gitbeaker.git",
     "@gitbeaker/requester-utils": "^32.0.0",
     "delay": "^5.0.0",
     "got": "^11.8.2",
